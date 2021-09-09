@@ -1,0 +1,80 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+    margin-top: 20px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.bgc{
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+    /*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*/
+}
+.show_txt{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+a .active{
+    color: white;
+}
+/*body{
+    background-position: center;
+    background-image: url("data:image/jpeg;base64,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")
+    
+}*/
